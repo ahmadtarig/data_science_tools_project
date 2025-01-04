@@ -194,7 +194,8 @@ def simulate_prediction(budget, genre, year):
     try:
         data = pd.read_csv(file_path)
     except FileNotFoundError:
-        output_label.configure(text="Something went wrong: couldn't find 'cleaned_top-1000-movies.csv' file", fg='red')
+        output_label.configure(text="Something went wrong: couldn't find \n'cleaned_top-1000-movies.csv' file", fg='red')
+        print(FileNotFoundError)
         return
     output_label.configure(text="The File 'cleaned_top-1000-movies.csv' was read successfully.\n", fg='green')
     
