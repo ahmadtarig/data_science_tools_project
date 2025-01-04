@@ -242,7 +242,7 @@ tk.Label(frame_prediction, text="PREDICTION WORLD GROSS", fg="white", bg=black_2
 tk.Label(frame_prediction, text="Based on the input data (budget, genre, year), the model will predict the expected world gross for the movie, helping you forecast its financial success.", wraplength=800, fg="white", bg=black_2, font=("Sanserif", 12)).place(relx=0.5, rely=0.2, anchor="center")
 predict_button = ctk.CTkButton(frame_prediction, text="Predict", font=("Sanserif", 14), width=150, height=40, corner_radius=10, fg_color=black_1, command=predict_movie_gross)
 predict_button.place(relx=0.5, rely=0.3, anchor="center")
-output_label = tk.Label(frame_prediction, fg="white", bg=black_2, font=("Sanserif", 16), width=40, height=2)
+output_label = tk.Label(frame_prediction, fg="white", bg=black_2, font=("Sanserif", 12), width=40, height=2, wraplength=500)
 output_label.place(relx=0.5, rely=0.7, anchor="center")
 
 
