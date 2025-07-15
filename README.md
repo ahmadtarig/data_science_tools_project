@@ -35,9 +35,3 @@ Whether it’s scraping movie data, predicting revenue, or analyzing messy CSV f
 - 📊 Help non-technical people understand data
 
 ---
-
-## 📫 Contact
-
-- 💼 LinkedIn: [Your link here]
-- 🌐 Portfolio: Coming Soon
-- 📧 Email: [your email]
