@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Ahmed Tarig — Data Science Tools Developer
+# Data Science Tools project
 
 🧠 I build powerful tools to solve real-world data problems.
 
